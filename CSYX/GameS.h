@@ -19,6 +19,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) SKSpriteNode *Btn_Left;//向左
 @property (nonatomic,strong) SKSpriteNode *Btn_Right;//向r右
 
+@property (nonatomic,strong) NSArray      *arr_DT;//地图
+
+@property (nonatomic,assign) BOOL         is_XD;//是否是在行动
+
 
 @end
 
